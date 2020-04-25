@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template>
+    <field required="True" type="xpath" name="title" multy="False" prefix="">
+        /html/body/div/div[3]/div[1]/h1//text()
+    </field>
+    <field required="True" type="xpath" name="description" multy="False" prefix="">
+        /html/body/div/div[3]/div[1]/p[1]//text()
+    </field>
+    <field required="True" type="regex" name="price" multy="True" prefix="">
+        \$\d+
+    </field>
+</template>

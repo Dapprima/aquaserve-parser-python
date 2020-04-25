@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template>
+    <field required="True" type="xpath" name="city-link" multy="True" prefix="">
+        /html/body/div/div[3]/div[1]/center/font//@href
+    </field>
+</template>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<template>
+    <field required="True" type="xpath" name="state-link" multy="True" prefix="https://www.aquaverve.com/state-water-cooler-delivery/">
+        /html/body/div/div[2]/center//@href
+    </field>
+</template>
